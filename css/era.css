@@ -1,0 +1,23 @@
+#era {
+    padding: 85px 0;
+    background-color: #000;
+}
+
+/* #era .df {
+    gap: 95px;
+} */
+
+.era__left .title {
+    font-size: 64px;
+}
+
+.era__container {
+    gap: 95px;
+}
+
+
+@media (max-width:1100px) {
+    .era__container {
+        flex-direction: column;
+    }
+}
